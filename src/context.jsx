@@ -1,3 +1,5 @@
+ /* eslint-disable */
+
 "use client";
 import React, { createContext, useContext, useState } from "react";
 
@@ -13,8 +15,8 @@ export function AppWrapper({ children }) {
   }}>
     {children}
   </AppContext.Provider>;
-};
+}
 
 export function useAppContext() {
   return useContext(AppContext)
-};
+}
